@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus>
+  <menu display-name="File" short-cut="f">
+    <menu-item display-name="My Profile" command-name="MY_PROFILE" short-cut="p" image="resources/images/icons/profile.png" />
+    <menu-item type="seperator" />
+    <menu-item display-name="Exit" command-name="EXIT" short-cut="e" image="resources/images/icons/exit.png" />
+  </menu>
+  <menu display-name="Settings" short-cut="s">
+    <!-- Guitar type : number of strings and frets -->
+    <menu-item display-name="Guitar" command-name="GUITAR" short-cut="g" image="resources/images/icons/guitar.png"/>
+    <menu-item display-name="Tuner" command-name="TUNER" short-cut="t" image="resources/images/icons/tuner.png"/>
+    <menu-item type="seperator" />
+    <menu-item display-name="Show Open Strings" command-name="SHOW_OPEN_STRINGS" short-cut="o" type="option" />
+  </menu>
+  <menu display-name="Reference" short-cut="r">
+    <menu-item display-name="Strings" command-name="STRINGS" short-cut="s" image="resources/images/icons/string.png"/>
+    <menu-item display-name="Fretboard" command-name="FRETBOARD" short-cut="f" image="resources/images/icons/fretboard.png"/>
+    <menu-item type="seperator" />
+    <menu-item display-name="Scales" command-name="SCALES" short-cut="c" image="resources/images/icons/scale.png"/>
+    <menu-item display-name="Tones" command-name="TONICS" short-cut="t" image="resources/images/icons/tone.png"/>
+    <menu-item type="seperator" />
+    <menu-item display-name="Melakarta" command-name="MELAKARTA" short-cut="m" image="resources/images/icons/melakarta1.png"/>
+  </menu>
+  <menu display-name="Tools" short-cut="t">
+    <menu-item display-name="Compare Scales" command-name="COMPARE_SCALES" short-cut="c" image="resources/images/icons/compare.png"/>
+    <menu-item display-name="Transpose Scale" command-name="TRANSPOSE_SCALE" short-cut="t" image="resources/images/icons/transpose.png"/>
+    <menu-item type="seperator" />
+    <!-- Find raga based on the notes. example: brahmamurari -->
+    <menu-item display-name="Find Raga" command-name="FIND_RAGA" short-cut="f" image="resources/images/icons/find.png"/>
+  </menu>
+  <menu display-name="Help" short-cut="h">
+    <menu-item display-name="About" command-name="ABOUT" short-cut="a" image="resources/images/icons/about.png"/>
+  </menu>
+</menus>
